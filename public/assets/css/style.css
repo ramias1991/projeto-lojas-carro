@@ -1,0 +1,37 @@
+/* Styles defaults */
+
+.bg-default {
+    background-color: blueviolet !important;
+}
+
+.color-font-default {
+    color: white !important;
+}
+
+:root {
+    --bg-default-menu-hover: rgb(74, 5, 139);
+    --color-font-defaul-menu: #FFF;
+}
+
+/* End Styles defaults */
+
+#menu {
+    padding: unset;
+}
+
+#menu .nav-link {
+    padding: 20px !important;
+}
+
+#menu .nav-link {
+    transition: .5s;
+    color: var(--color-font-defaul-menu);
+}
+
+#menu .nav-link:hover {
+    background-color: var(--bg-default-menu-hover);
+}
+
+#menu .active {
+    background-color: var(--bg-default-menu-hover);
+}
