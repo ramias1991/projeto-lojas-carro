@@ -10,7 +10,8 @@ class HomeController extends Controller
     {
         $dados = [
             'nome_loja' => 'Loja de Carros',
-            'title' => 'Home'
+            'title' => 'Home',
+            'logo_img' =>'logo_loja.png',
         ];
 
         return view('home', $dados);

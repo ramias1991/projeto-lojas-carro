@@ -10,7 +10,7 @@
 
 :root {
     --bg-default-menu-hover: rgb(74, 5, 139);
-    --color-font-defaul-menu: #FFF;
+    --color-font-default-menu: #FFF;
 }
 
 /* End Styles defaults */
@@ -25,7 +25,7 @@
 
 #menu .nav-link {
     transition: .5s;
-    color: var(--color-font-defaul-menu);
+    color: var(--color-font-default-menu);
 }
 
 #menu .nav-link:hover {
@@ -34,4 +34,16 @@
 
 #menu .active {
     background-color: var(--bg-default-menu-hover);
+}
+
+#menu #logo {
+    height: 50px;
+}
+
+#footer-end {
+    border-top: 1px solid #FFF;
+}
+
+.footer-logo {
+    height: 60px;
 }
