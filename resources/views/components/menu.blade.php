@@ -11,16 +11,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link {{ $title == 'Home' ? 'active' : '' }}" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/quem-somos">Quem Somos</a>
+                        <a class="nav-link {{ $title == 'Quem Somos' ? 'active' : '' }}" href="/quem-somos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/estoque">Estoque</a>
+                        <a class="nav-link {{ $title == 'Estoque' ? 'active' : '' }}" href="/estoque">Estoque</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contato">Contato</a>
+                        <a class="nav-link {{ $title == 'Contato' ? 'active' : '' }}" href="/contato">Contato</a>
                     </li>
                 </ul>
             </div>

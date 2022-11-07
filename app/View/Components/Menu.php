@@ -7,14 +7,16 @@ use Illuminate\View\Component;
 class Menu extends Component
 {
     public string $logoImg;
+    public string $title;
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public function __construct(string $logoImg)
+    public function __construct(string $logoImg, string $title)
     {
         $this->logoImg = $logoImg;
+        $this->title = $title;
     }
 
     /**

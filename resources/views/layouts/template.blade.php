@@ -12,7 +12,7 @@
 
 <body>
 
-    <x-menu :logo-img="$logo_img" />
+    <x-menu :logo-img="$logo_img" :title="$title" />
 
     @yield('content')
 

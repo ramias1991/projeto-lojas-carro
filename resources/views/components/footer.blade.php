@@ -19,12 +19,13 @@
     <div class="container pb-5" id="footer-end">
         <div class="row pt-3">
             <div class="col-4">
-                &copy; {{ $nomeLoja }} 2015 - {{ date('Y') }}
+                &copy; {{ $nomeLoja }} <br>
+                {{ date('Y') }} - Todos os direitos reservados
             </div>
-            <div class="col-4">
+            <div class="col-4 d-flex justify-content-center">
                 Redes Sociais
             </div>
-            <div class="col-4">
+            <div class="col-4 d-flex justify-content-end">
                 Feito por mim mesmo
             </div>
         </div>

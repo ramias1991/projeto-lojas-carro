@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\ContatoController;
+use App\Http\Controllers\EstoqueController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\QuemSomosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +17,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Home
 Route::get('/', [HomeController::class, 'index']);
+
+// Quem Somos
+Route::get('/quem-somos', [QuemSomosController::class, 'index']);
+
+// Estoque
+Route::get('/estoque', [EstoqueController::class, 'index']);
+
+// Contato
+Route::get('/contato', [ContatoController::class, 'index']);
