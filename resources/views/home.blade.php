@@ -4,8 +4,11 @@
 
     <x-slide-top />
 
+    <x-search-cars-bar />
+
     <div class="container mt-5 mb-5">
-        <h1>Página Inicial</h1>
+
+
     </div>
 
 @endsection

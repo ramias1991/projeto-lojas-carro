@@ -19,8 +19,7 @@
     <div class="container pb-5" id="footer-end">
         <div class="row pt-3">
             <div class="col-4">
-                &copy; {{ $nomeLoja }} <br>
-                {{ date('Y') }} - Todos os direitos reservados
+                Todos os direitos reservados &copy; {{ date('Y') }}
             </div>
             <div class="col-4 d-flex justify-content-center">
                 Redes Sociais
